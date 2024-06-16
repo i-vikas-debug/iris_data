@@ -1,0 +1,11 @@
+Assignment 01: 
+Load the Iris dataset into a pandas DataFrame
+Find the mean and median of the 'sepal_length' column.
+Calculate the 75th percentile of the 'petal_width' column for each species in the Iris dataset.
+Create a new column in the Iris DataFrame called 'sepal_area', which is the product of 'sepal_length' and 'sepal_width'.
+Remove all rows in the Iris DataFrame where 'petal_length' is greater than twice the standard deviation of 'petal_length' for that species.
+Normalize all numerical columns in the Iris DataFrame (except the 'species' column) using Min-Max scaling.
+ Find the three most common combinations of 'sepal_length', 'sepal_width', and 'petal_length' in the Iris dataset.
+ Group the Iris DataFrame by 'species' and find the row with the highest 'sepal_width' for each group.
+ Replace all negative values in the 'petal_width' column of the Iris DataFrame with the mean of the non-negative values in that column.
+Calculate the correlation matrix for the 'sepal_length', 'sepal_width', 'petal_length', and 'petal_width' columns in the Iris dataset and find the feature with the highest absolute correlation with 'petal_width'.
